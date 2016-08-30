@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Chat</title>
+    <link href="style/mystyle.css" type="text/css" rel="stylesheet">
+    <script>
+        function demo(){
+           var num = prompt("请输入上线人数:");
+           document.getElementById("linked_p").innerHTML = "当前在线人数："+num.toString()+"/20";
+        }
+    </script>
+</head>
+<body onload="demo()">
+    <div class="box_all">
+        <div class="box_l">
+            <div class="box_name"></div>
+        </div>
+        <div class="box_c">
+            <p>网页聊天室</p>
+            <div class="text" ></div>
+            <textarea class="chat" placeholder="type and press enter or send to chat"></textarea>
+            <button class="send"> 发送</button>
+        </div>
+        <div class="box_r">
+            <div class="linked">
+                <p id="linked_p">当前在线人数：10/20</p>
+            </div>
+            <div class="linked_info"></div>
+        </div>
+    </div>
+</body>
+</html>

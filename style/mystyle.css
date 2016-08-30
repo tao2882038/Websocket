@@ -1,0 +1,63 @@
+body{
+    background: darkgray;
+}
+.box_all{ width: 1000px;height: 680px;background: blueviolet;margin: auto;}
+.box_all .box_l{ width: 200px;height: 100%;float: left;background: coral;}
+.box_all .box_l .box_name{ width: 100px;height: 50px;margin: 30px 50px;background: cornflowerblue}
+.box_all .box_c{ width: 600px;height: 100%;float: left;background: chocolate;}
+.box_all .box_c .text{  border: 1px solid #CCCCCC;
+    border-right-color: #999999;
+    border-bottom-color: #999999;
+    height: 500px;
+    overflow-y: scroll;
+    padding: 5px;
+    width: 588px;
+}
+.box_all .box_c p{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.box_all .box_c .chat{
+    resize: none;
+    font-size: 18px;
+    margin-top: 20px;
+    height: 54px;
+    line-height: 18px;
+    width: 500px;
+}
+
+.box_all .box_c .send{
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin-top: 24px;
+    margin-right: 20px;
+    background: aquamarine;
+}
+.box_all .box_r{ width: 200px;height: 100%;float: right;background: cadetblue;}
+
+.box_all .box_r .linked{
+    margin: 20px auto;
+    font-size: 18px;
+    width: 100px;
+    height: 40px;
+    background: antiquewhite;
+}
+.box_all .box_r .linked_info{
+    background: blueviolet;
+    height: 600px;
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
